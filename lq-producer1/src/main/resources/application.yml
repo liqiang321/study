@@ -1,0 +1,14 @@
+#端口
+ server:
+  port: 1081
+
+#数据库链接信息
+ spring:
+  application:
+   name: producer-service
+
+#注册中心
+ eureka:
+  client:
+   serviceUrl:
+    defaultZone: http://localhost:1111/eureka/
